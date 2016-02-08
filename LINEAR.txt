@@ -1,0 +1,159 @@
+ClrHome
+PlotsOff 
+Disp "Sol|vi[n]g Li[n][|e][|a][r]"
+Disp "Eq|u[|a][t]io[n][s]"
+Pause 
+Disp "No[t][|e], If [|a]"
+Disp "[n]|um[|b][|e][r] h[|a][s] [|a]"
+Disp "[s]|u[|b][t][r][|a][|c][t]io[n] [s]ig[n]"
+Disp "[n][|e]x[t] [t]o i[t] [t]h[|e][n]"
+Disp "i[n][p]|u[t] [t]h[|e] [n]|um[|b][|e][r]"
+Disp "[|a][s] [n][|e]g[|a][t]i|v[|e]."
+Pause 
+Disp "Thi[s] [p][r]og[r][|a]m"
+Disp "|will [n]o[t] |wo[r]k"
+Disp "|wi[t]h [|e]q|u[|a][t]io[n][s]"
+Disp "[t]h[|a][t] h[|a]|v[|e] mo[r][|e]"
+Disp "[t]h[|a][n] o[n][|e]"
+Disp "[|d]iff[|e][r][|e][n][t]"
+Disp "|v[|a][r]i[|a][|b]l[|e][s], [|b]|u[t]"
+Pause 
+Disp "[|c][|a][n] h[|a]|v[|e] mo[r][|e]"
+Disp "[t]h[|a][n] o[n][|e] of [t]h[|e]"
+Disp "[s][|a]m[|e] |v[|a][r]i[|a][|b]l[|e]."
+Disp "A"
+Input A
+Disp "If [|a] |v[|a][r]i[|a][|b]l[|e] i[s]"
+Disp "o[n] A, i[n][p]|u[t] 1"
+Disp "if [n]o[t], i[n][p]|u[t] 2"
+Input E
+Disp "B"
+Input B
+Disp "If [|a] |v[|a][r]i[|a][|b]l[|e] i[s]"
+Disp "o[n] B, i[n][p]|u[t] 1"
+Disp "if [n]o[t], im[p]|u[t] 2"
+Input F
+Disp "C"
+Input C
+Disp "If [|a] |v[|a][r]i[|a][|b]l[|e] i[s]"
+Disp "o[n] C, i[n][p]|u[t] 1"
+Disp "if [n]o[t], i[n][p]|u[t] 2"
+Input G
+Disp "D"
+Input D
+Disp "If [|a] |v[|a][r]i[|a][|b]l[|e] i[s]"
+Disp "o[n] D, i[n][p]|u[t] 1"
+Disp "if [n]o[t], im[p]|u[t] 2"
+Input H
+
+If E=1 and F=2 and G=2 and H=2
+Then
+	C+D->C
+	C+B->C
+	C/A->C
+	Disp C
+End
+
+If E=2 and F=1 and G=2 and H=2
+Then
+	C+D->C
+	C+A->C
+	C/B->C
+	Disp C
+End
+
+If E=2 and F=2 and G=1 and H=2
+Then
+	A+B->A
+	A+D->A
+	A/C->A
+	Disp A
+End
+
+If E=2 and F=2 and G=2 and H=1
+Then
+	A+B->A
+	A+C->A
+	A/D->A
+	Disp A
+End
+
+If E=1 and F=1 and G=2 and H=2
+Then
+	A+B->A
+	C+D->C
+	C/A->C
+	Disp C
+End
+
+If E=1 and F=2 and G=1 and H=2
+Then
+	A+C->A
+	D+B->D
+	D/A->D
+	Disp D
+End
+
+If E=1 and F=2 and G=2 and H=1
+Then
+	A+D->A
+	B+C->C
+	C/A->C
+	Disp C
+End
+
+If E=1 and F=2 and G=1 and H=1
+Then
+	C+D->C
+	A+C->C
+	B/C->B
+	Disp B
+End
+
+If E=1 and F=1 and G=2 and H=1
+Then
+	A+B->B
+	B+D->B
+	C/B->C
+	Disp C
+End
+
+If E=1 and F=1 and G=1 and H=2
+Then
+	A+B->B
+	B+C->B
+	D/B->D
+	Disp D
+End
+
+If E=2 and F=1 and G=1 and H=2
+Then
+	B+C->B
+	A+D->D
+	D/B->D
+	Disp D
+End
+
+If E=2 and F=1 and G=2 and H=1
+Then
+	B+D->B
+	A+C->C
+	C/B->C
+	Disp C
+End
+
+If E=2 and F=1 and G=1 and H=1
+Then
+	C+D->C
+	C+B->C
+	A/C->C
+	Disp C
+End
+
+If E=2 and F=2 and G=1 and H=1
+Then
+	A+B->B
+	C+D->C
+	B/C->B
+	Disp B
+End
